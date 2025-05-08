@@ -22,6 +22,10 @@ mongoose.connect(process.env.MONGODB_URI, {
   .then(() => {
     console.log("MongoDB connected to Atlas");
     const PORT = process.env.PORT || 5000;
+    app.get("/", (req, res) => {
+        res.send(" The Work Experience API is working on Render!");
+      });
+      
     app.listen(PORT, () => {
       console.log(` Server running on port ${PORT}`);
     });
