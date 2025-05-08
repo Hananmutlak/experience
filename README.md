@@ -17,12 +17,12 @@ Starta servern med kommandot `npm start`.
 
 ##  Databasstruktur
 API:et använder MongoDB med följande schema för arbetslivserfarenheter:
-- `company` (String): Företagets namn
-- `role` (String): Roll/position
-- `description` (String): Arbetsbeskrivning
-- `duration` (String): Anställningstid
-- `createdAt` (Date): Skapandedatum (automatiskt)
-- `updatedAt` (Date): Uppdateringsdatum (automatiskt)
+- "company" (String): Företagets namn
+- "role" (String): Roll/position
+- "description" (String): Arbetsbeskrivning
+- "duration" (String): Anställningstid
+- "createdAt" (Date): Skapandedatum (automatiskt)
+- "updatedAt" (Date): Uppdateringsdatum (automatiskt)
 
 ##  API-användning
 - `GET /api/experiences` – Hämtar alla arbetslivserfarenheter  
